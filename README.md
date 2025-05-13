@@ -1,14 +1,14 @@
 # Instructions
 
-The submission consists of the following scripts:
+The repo consists of the following scripts:
 
-svd.py: creates a co-occurrence matrix and then performs svd on that matrix to obtain word embeddings, which are saved in svd-word-vector.pt
+`svd.py`: creates a co-occurrence matrix and then performs svd on that matrix to obtain word embeddings, which are saved in `svd-word-vector.pt`
 
-skip_gram.py: creates word embeddings using the skip-gram architecture and saves them in skip-gram-word-vectors.pt (Note: although it was instructed to name this file "skip-gram.py", i could not do so due to **errors caused by importing items from this file to another file using "import"**)
+`skip_gram.py`: creates word embeddings using the skip-gram architecture and saves them in `skip-gram-word-vectors.pt`
 
-svd-classification.py: trains a RNN model on the SVD word vectors and tests them on the test set
+`svd-classification.py`: trains a RNN model on the SVD word vectors and tests them on the test set
 
-skip-gram-classification.py: trains a RNN model on the skip-gram word vectors and tests them on the test set
+`skip-gram-classification.py`: trains a RNN model on the skip-gram word vectors and tests them on the test set
 
 
 
